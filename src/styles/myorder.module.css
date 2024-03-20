@@ -1,0 +1,76 @@
+
+/* ###################### MyOrder.js ######################*/
+
+.mainContainer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.orderHeading{
+    color:#2d6b66;
+}
+
+
+.orderListContainer{
+    width: 75%;
+}
+
+.mainContainer a{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    font-weight: 700;
+    color: #df3cd9;
+}
+
+
+/* ########################### OrderList.js ########################### */
+
+
+
+.orderListContainer > div{
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    margin: 10px;
+    background-image: linear-gradient(120deg, #bec2ff 0%, #fbb0ee 100%);
+    box-shadow: 0px 0px 6px 2px grey;
+}
+
+
+table{
+    width: 100%;
+    font-weight: 600;
+    border-collapse: collapse;
+    color: #e94146;
+}
+
+th,td{
+    background-color: transparent;
+    border:2px solid black;
+}
+
+th{
+    color: #5f5569;
+}
+
+.clearAllBtn{
+    width: 10%;
+    height: 50px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right, #1024d3 0%, #3885ea 51%, #8b10d3 100%);
+}
+
+.clearAllBtn:hover{
+    background-image: none;
+    border: 2px solid #0f39c5;
+    color: #106bd3;
+    font-weight: 700;
+}
+
